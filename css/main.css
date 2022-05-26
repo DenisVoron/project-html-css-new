@@ -37,15 +37,36 @@ img {
     padding: 94px 0px;
 }
 
+.container {
+    /*width: 1200px;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*header*/
 .header {
-    display: flex;
     width: 100%;
     height: 80px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    font-size: 14px;
 }
 
 .header-menu {
     display: flex;
     margin-left: auto;
+}
+.header-menu__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.title {
+    
 }
